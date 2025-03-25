@@ -1,0 +1,55 @@
+# Julia specific
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+*.jl.*.mem
+deps/deps.jl
+docs/build/
+docs/site/
+Manifest.toml
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Results and generated files
+results/backtests/*
+results/reports/*
+!results/backtests/.gitkeep
+!results/reports/.gitkeep
+
+# API keys and secrets
+config/secrets.json
+config/api_keys.json
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.VSCodeCounter/
+
+# Zed Editor
+.zed/
+.zedstate
+
+# Mac OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Log files
+*.log
